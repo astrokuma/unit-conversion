@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: .6em;
+    background-color: #e7b28e;
+    color: #5f4c41;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #e0d7c1;
+    border-radius: 0px 0px 20px 20px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 1em;
+    color: #f4f1de;
+    font-size: .7em;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+#input-num{
+    background-color: #F0ECD1;
+    border: 8px double #e7b28e;
+    color: #5f4c41;
+    padding: 8px 14px;
+    font-size: 5em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 6em;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+#convert-btn{
+    background-color: #dd7a5f;
+    border: none;
+    padding: 10px 12px;
+    color: #F4F1DE;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+}
+
+.conversion{
+    border: 8px double #e7b28e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F1DE;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 300px;
+    font-weight: bold;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    column-gap:1em;
+    align-items: center;
+    color: #5f4c41;
+}
+
+#title{
+    cursor: pointer;
+    user-select: none;
+}
+
+.title h1{
+    width: 4em;
+    background-color: #F0ECD1;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.title h3{
+    width: 3.2em;
+    user-select: none;
+}
+
+h1{
+    margin: 0;
+}
+
+h3{
+    color: #5f4c41;
+    margin: 10px 0 0;
+}
+
+#header h3{
+    margin: 0 0 10px;
+    color: #dd7a5f;
+}
+
+p{
+    margin: 5px 0 10px;
+    color: #dd7a5f;
+}
+
+.switch{
+    width: 2.3em;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
